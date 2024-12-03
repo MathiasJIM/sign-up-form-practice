@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <main>
+      <div class="image">
+        <div class="logo">
+            <img src="images/odin-lined.png" alt="">
+            <h1>Odin</h1>
+        </div>
+      </div>
+      <div class="content">
+        <div class="text">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odio inventore 
+                quia aut, itaque, cumque quibusdam ipsa suscipit vitae quam distinctio nemo minus eos nam tempora vero sint? Eum, obcaecati.</h3>
+            <h3>Tu sabes que tu quieres...</h3>
+        </div>
+
+
+        <form action="#" method="post">
+          <div class="form-container">
+            <h3>Hagamos esto!</h3>
+            <div class="row">
+              <div class="input">
+                <label for="name">First Name</label>
+                <input type="text" placeholder="Thor" required />
+              </div>
+              <div class="input">
+                <label for="last-name">Last Name</label>
+                <input type="text" placeholder="Odinson" required/>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input">
+                <label for="email">Email</label>
+                <input type="email" required/>
+              </div>
+              <div class="input">
+                <label for="phone">Phone Number</label>
+                <input type="number" required/>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input">
+                <label for="name">Password</label>
+                <input class="password" type="password" onkeyup="check()" required/>
+              </div>
+              <div class="input">
+                <label for="last-name">Confirm Password</label>
+                <input class="cpassword" type="password" onkeyup="check()" required/>
+              </div>
+            </div>
+          </div>
+
+          <div class="btn-container">
+            <button class="btn" type="submit">Crear Cuenta</button>
+            <p>Ya tiene cuenta? <a href="#">Log in</a></p>
+          </div>
+
+        </form>
+
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
